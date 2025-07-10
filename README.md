@@ -13,7 +13,8 @@ It demonstrates:
 
 > 🔗 **Live Docker Deployment:** [http://172.171.199.181:5173/](http://172.171.199.181:5173/)  
 > ☁️ **Kubernetes Deployment:** _Running on AKS with YAML-based manifests_  
-> 📦 **DockerHub Image:** `prateek2004/`
+> 📦 **DockerHub Image:** `prateek2004/insurance-backend:latest`
+> 📦 **DockerHub Image:** `prateek2004/insurance-frontend:latest`
 
 ---
 
