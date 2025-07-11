@@ -11,7 +11,9 @@ It demonstrates:
 - 🌍 Global access with **Nginx reverse proxy** and **Let's Encrypt SSL**
 - 📈 Monitoring via **Portainer**, `docker stats`, and **Prometheus + Grafana**
 
-> 🔗 **Live Docker Deployment:** [http://172.171.199.181:5173/](http://172.171.199.181:5173/)  
+> 🔗 **Live Docker Deployment:** [http://172.171.199.181:5173/](http://172.171.199.181:5173/)
+> Test user login : prateek
+> Test user password : Prateek2004@ 
 > ☁️ **Kubernetes Deployment:** _Running on AKS with YAML-based manifests_  
 > 📦 **DockerHub Image:** `prateek2004/insurance-backend:latest`
 > 📦 **DockerHub Image:** `prateek2004/insurance-frontend:latest`
