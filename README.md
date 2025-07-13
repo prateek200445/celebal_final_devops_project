@@ -6,7 +6,7 @@ This is the final project submitted for my DevOps Internship at **Celebal Techno
 
 It demonstrates:
 - 🐳 End-to-end Docker containerization and deployment on **Azure VM**
-- ☸️ Scalable Kubernetes deployment using **Azure Kubernetes Service (AKS)**
+- ☸️ Scalable Kubernetes deployment using **Azure Kubernetes Service (AKS) {THIS IS DONE AS AN ADDITIONAL TO THE STATED TASK THE DEPLOYMENT MAY OR MAY NOT BE LIVE FOR CLUSTER DEPENDIND UPON THE AZURE CREDITS }**
 - ⚙️ CI/CD pipeline with **GitHub Actions**
 - 🌍 Global access with **Nginx reverse proxy** and **Let's Encrypt SSL**
 - 📈 Monitoring via **Portainer**, `docker stats`, and **Prometheus + Grafana**
