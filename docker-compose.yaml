@@ -3,10 +3,13 @@ version: '3.8'
 services:
   frontend:
     image: prateek2004/insurance-frontend:latest
+    container_name: insurance-app-frontend-1
     ports:
-      - "5173:80"  # Expose frontend on host port 5173
+      - "5173:80"
     networks:
       - aura
+    labels:
+      - "com.centurylinklabs.watchtower.enable=true"
     healthcheck:
       test: ["CMD-SHELL", "curl -sf http://localhost/index.html || exit 1"]
       interval: 30s
@@ -16,9 +19,10 @@ services:
 
   backend:
     image: prateek2004/insurance-backend:latest
+    container_name: insurance-app-backend-1
     command: python manage.py runserver 0.0.0.0:8000
     ports:
-      - "8000:8000"  # Expose backend API
+      - "8000:8000"
     environment:
       - DJANGO_SECRET_KEY=z%9oq2r3)j+5+7#b8kpr9et*f%o!n&2br7!=35ox4%+-pvk9s1
       - DEBUG=True
@@ -27,6 +31,8 @@ services:
       - db_data:/app/db
     networks:
       - aura
+    labels:
+      - "com.centurylinklabs.watchtower.enable=true"
     healthcheck:
       test: ["CMD-SHELL", "curl -sf http://localhost:8000/api/health/ || exit 1"]
       interval: 30s
@@ -40,4 +46,3 @@ volumes:
 networks:
   aura:
     driver: bridge
-
