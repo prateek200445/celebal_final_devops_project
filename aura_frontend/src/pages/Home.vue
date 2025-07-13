@@ -24,7 +24,7 @@
         <div>
           Insurance submissions are fractured and slow. To fix that, we put technology ahead of
           tradition—streamlining intake across carriers and lines to give agents and underwriters a
-          unified, real-time advantage.
+          unified, real-time advantage and thats build the real aura.
         </div>
       </div>
     </div>
