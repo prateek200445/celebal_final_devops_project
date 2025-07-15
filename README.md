@@ -93,9 +93,6 @@ celebal_final_devops_project/
 ├── docker-compose.yml # Docker orchestration
 └── README.md
 
-
----
-
 ## 🚀 Local Setup (Docker)
 
 ```bash
