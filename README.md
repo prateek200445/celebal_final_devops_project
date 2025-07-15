@@ -139,7 +139,8 @@ AKS pods view from kubectl get pods
 📦 Centralized logging with Loki or ELK
 
 🌐 Switch from static IP to domain + cert auto-renewal
-```bash
+```
+
 📝 Submission Notes
 ✅ Docker deployment (frontend + backend + MongoDB)
 ✅ Azure VM with NSG + open ports
