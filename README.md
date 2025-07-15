@@ -95,11 +95,11 @@ celebal_final_devops_project/
 
 ## 🚀 Local Setup (Docker)
 
-```bash
+
 git clone https://github.com/prateek200445/celebal_final_devops_project.git
 cd celebal_final_devops_project
 docker-compose up --build
-'''
+
 
 Visit:
 
@@ -110,12 +110,12 @@ Backend API → http://localhost:5000
 MongoDB → localhost:27017
 
 ☸️ Deploy to AKS (Kubernetes)
-'''bash
+
 
 kubectl apply -f k8s/deployment.yaml
 kubectl apply -f k8s/service.yaml
 kubectl apply -f k8s/ingress.yaml
-'''
+
 
 ## 🔐 **Admin Demo Credentials**
 
@@ -159,7 +159,6 @@ kubectl apply -f k8s/ingress.yaml
 All Docker images used in this project are available on Docker Hub:  
 🔗 [https://hub.docker.com/u/prateek2004](https://hub.docker.com/u/prateek2004)
 
----
 
 ## 📦 Final Notes
 
@@ -182,7 +181,6 @@ You can clone, run, or extend this setup with ease for any production-grade DevO
 🛠️ Maintained by [@prateek200445](https://github.com/prateek200445)  
 📁 Repo: `celebal_final_devops_project`
 
----
 
 🎉 **Thank you for exploring this DevOps showcase!**
 
