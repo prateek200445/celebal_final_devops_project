@@ -101,7 +101,7 @@ celebal_final_devops_project/
 ```bash
 git clone https://github.com/prateek200445/celebal_final_devops_project.git
 cd celebal_final_devops_project
-docker-compose up --build 
+docker-compose up --build '''
 
 Visit:
 
@@ -111,49 +111,81 @@ Backend API → http://localhost:5000
 
 MongoDB → localhost:27017
 
-Deploy to AKS (Kubernetes)
+☸️ Deploy to AKS (Kubernetes)
+'''bash
+
 kubectl apply -f k8s/deployment.yaml
 kubectl apply -f k8s/service.yaml
 kubectl apply -f k8s/ingress.yaml
+'''
 
-Admin Demo Credentials
-Role	Username	Password
-Admin	admin@example.com	admin123
+## 🔐 **Admin Demo Credentials**
 
-Screenshots (coming soon)
-Frontend dashboard
+| **Role** | **Username**         | **Password**     |
+|----------|----------------------|------------------|
+| Admin    | prateek              | Prateek@2004     |
 
-Portainer dashboard
 
-GitHub Actions CI/CD pipeline run
+## 📸 Screenshots 
 
-Prometheus + Grafana metrics
+- ✅ **Frontend dashboard**
+- ✅ **Portainer dashboard**
+- ✅ **GitHub Actions CI/CD pipeline run**
+- ✅ **Prometheus + Grafana metrics**
+- ✅ **AKS pods view from** `kubectl get pods`
 
-AKS pods view from kubectl get pods
 
-🔮 Future Enhancements
-🧩 Add Helm support for K8s deployment
+## 🔮 Future Enhancements ( Planning )
 
-🔄 JWT refresh token + token rotation
+- 🧩 **Add Helm support** for K8s deployment  
+- 🔄 **JWT refresh token** + token rotation  
+- 📦 **Centralized logging** with Loki or ELK stack  
+- 🌐 **Switch from static IP to domain** + cert auto-renewal
 
-📦 Centralized logging with Loki or ELK
+## 📝 Submission Notes
 
-🌐 Switch from static IP to domain + cert auto-renewal
-```
+- ✅ **Docker deployment** (frontend + backend + MongoDB)  
+- ✅ **Azure VM** with NSG + open ports  
+- ✅ **CI/CD** with GitHub Actions  
+- ✅ **AKS-based production deployment**  
+- ✅ **SPA routing**, reverse proxy, monitoring, SSL-ready  
+- ✅ **Additional tooling**: Portainer, Watchtower, Prometheus  
 
-##📝 Submission Notes
-✅ Docker deployment (frontend + backend + MongoDB)<br></br>
-✅ Azure VM with NSG + open ports
-✅ CI/CD with GitHub Actions
-✅ AKS-based production deployment
-✅ SPA routing, reverse proxy, monitoring, SSL-ready
-✅ Additional tooling: Portainer, Watchtower, Prometheus
+📂 **All AKS YAML files, CI/CD workflows, and Grafana dashboards** will be uploaded in this repository within 1–2 days.  
+🛠️ **Maintainer**: [@prateek200445](https://github.com/prateek200445)  
+📁 **Repo Name**: `celebal_final_devops_project`  
+🌐 **Live Docker Deployment**: [http://172.171.199.181/5173](http://172.171.199.181/)
 
-📂 All AKS YAML files, CI/CD workflows, and Grafana dashboards will be uploaded in this repository within 1–2 days.
-🛠️ Maintainer: @prateek200445
-📁 Repo Name: celebal_final_devops_project
-🌐 Live Docker Deployment: http://172.171.199.181/5173
+## 🐳 Docker Hub
 
-Thank you for reviewing this DevOps showcase — feedback and collaboration welcome!
+All Docker images used in this project are available on Docker Hub:  
+🔗 [https://hub.docker.com/u/prateek2004](https://hub.docker.com/u/prateek2004)
+
+---
+
+## 📦 Final Notes
+
+Everything required to run and deploy this project is included in this repository:
+
+- ✅ Dockerfiles for frontend, backend, and MongoDB
+- ✅ docker-compose setup for local development
+- ✅ AKS-compatible Kubernetes YAMLs (Deployment, Service, Ingress)
+- ✅ CI/CD workflows via GitHub Actions
+- ✅ Monitoring stack (Prometheus + Grafana)
+- ✅ Admin credentials for demo
+- ✅ Screenshots and dashboards (to be updated)
+- ✅ Docker images hosted publicly at:  
+  🔗 [https://hub.docker.com/u/prateek2004](https://hub.docker.com/u/prateek2004)
+
+You can clone, run, or extend this setup with ease for any production-grade DevOps deployment demo.
+
+> Feel free to fork the repository, report issues, or suggest improvements.
+
+🛠️ Maintained by [@prateek200445](https://github.com/prateek200445)  
+📁 Repo: `celebal_final_devops_project`
+
+---
+
+🎉 **Thank you for exploring this DevOps showcase!**
 
 
