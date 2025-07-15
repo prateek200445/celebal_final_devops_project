@@ -141,8 +141,8 @@ AKS pods view from kubectl get pods
 🌐 Switch from static IP to domain + cert auto-renewal
 ```
 
-📝 Submission Notes
-✅ Docker deployment (frontend + backend + MongoDB)
+##📝 Submission Notes
+✅ Docker deployment (frontend + backend + MongoDB)<br></br>
 ✅ Azure VM with NSG + open ports
 ✅ CI/CD with GitHub Actions
 ✅ AKS-based production deployment
@@ -152,7 +152,7 @@ AKS pods view from kubectl get pods
 📂 All AKS YAML files, CI/CD workflows, and Grafana dashboards will be uploaded in this repository within 1–2 days.
 🛠️ Maintainer: @prateek200445
 📁 Repo Name: celebal_final_devops_project
-🌐 Live Docker Deployment: http://172.171.199.181/
+🌐 Live Docker Deployment: http://172.171.199.181/5173
 
 Thank you for reviewing this DevOps showcase — feedback and collaboration welcome!
 
