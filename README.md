@@ -97,6 +97,8 @@ celebal_final_devops_project/
 
 
 git clone https://github.com/prateek200445/celebal_final_devops_project.git
+
+
 cd celebal_final_devops_project
 docker-compose up --build
 
